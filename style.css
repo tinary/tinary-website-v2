@@ -62,7 +62,7 @@
 
 
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: 'Quicksand', sans-serif;
 }
 
