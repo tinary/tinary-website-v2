@@ -127,7 +127,7 @@ h2{
   color: #777777;
 }
 
-@media (max-width: 479px) {
+/* @media (max-width: 479px) {
   .social-icon-link {
     width: 30%;
   }
@@ -141,7 +141,7 @@ h2{
   .social-icon-link {
     margin: 0;
   }
-}
+} */
 
 .social-icon-link:after {
   -webkit-transition: 0.5s opacity ease-in-out;
@@ -182,13 +182,12 @@ h2{
   }
 } */
 
-@media only screen and (max-width:767px){
+/* @media only screen and (max-width:767px){
   .social-icon-wrapper {
     padding: 20px 0 10px;
     font-size: 10px;
-
   }
-}
+} */
 
 
 .social-icon {
