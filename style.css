@@ -133,7 +133,8 @@ h2{
   text-align: center;
   margin: 0 5%;
   width: 9%;
-  color: #777777;
+  /* color: #777777; */
+  color: #000000;
 }
 
 @media (max-width: 479px) {
@@ -183,7 +184,7 @@ h2{
   display: table;
   padding: 10px 0 20px 0;
   margin: 0 auto;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 /* @media (max-width: 767px) {
   .social-icon-wrapper {
