@@ -27,8 +27,13 @@ a:hover{
 
 nav {
   font-size:18px;
-  font-weight:bold;
+  /* font-weight:bold; */
   font-family: 'Quicksand', sans-serif;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
 }
 
 
@@ -50,6 +55,7 @@ hr {
   border: 0;
   height: 1px;
   width: 900px;
+  max-width:100%;
   /* background: #333; */
   /* background: #676767; */
   background: #545454;
@@ -96,7 +102,7 @@ h2{
 
 
 #about{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .selfie{
@@ -346,7 +352,6 @@ h2{
         right: auto;
         left: -8px;
     }
-
 }
 
 
@@ -368,11 +373,11 @@ h2{
 }
 
 .main-timeline .timeline:nth-child(odd) .inner-content{
-  transform: translate3d(200px,0,0);
+  transform: translate3d(10px,0,0);
 }
 
 .main-timeline .timeline:nth-child(even) .inner-content {
-  transform: translate3d(-200px,0,0);
+  transform: translate3d(-10px,0,0);
 }
 
 .main-timeline .timeline.in-view .inner-content {
