@@ -1,36 +1,7 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-
-
-
-
-
-
-
-
 //use this for bootstrap v4 navbar
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
-
-
-
-//use this for boostrap v3 navbar
-// $(function() {
-//     $('.nav a').on('click', function(){
-//         if($('.navbar-toggle').css('display') !='none'){
-//             $('.navbar-toggle').trigger( "click" );
-//         }
-//     });
-// });
 
 
 // animation for css fly in
